@@ -8,7 +8,7 @@ import SignIn from './components/Signin';
 const generateClassName = createGenerateClassName({
     productionPrefix: 'au',
 });
- 
+
 export default ({ history, onSignIn }) => {
     return <div>
         <StylesProvider generateClassName={generateClassName}>
